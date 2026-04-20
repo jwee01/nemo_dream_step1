@@ -1,0 +1,44 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Pipeline generated outputs
+logs/
+artifacts/
+stage12.jsonl
+stage12.stage1.jsonl
+*.stage1.jsonl
+
+# Generated embedding index (rebuild via build_index.sbatch)
+configs/retriever_index.npz
+
+# Claude Code local settings (may contain user-specific permissions)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/

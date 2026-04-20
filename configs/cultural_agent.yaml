@@ -1,0 +1,38 @@
+llms:
+  nemotron_reasoner:
+    _type: nim
+    model_name: nvidia/nemotron-3-nano-30b-a3b
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key: ${NVIDIA_API_KEY}
+    temperature: 0.2
+
+functions:
+  dict_lookup:
+    _type: cultural_dict_lookup
+  retriever_search:
+    _type: cultural_retriever_search
+  web_search:
+    _type: cultural_web_search
+
+workflow:
+  _type: tool_calling_agent
+  llm_name: nemotron_reasoner
+  tool_names: [dict_lookup, retriever_search, web_search]
+  handle_tool_errors: true
+  max_iterations: 8
+  system_prompt: |
+    You are a cultural mapper for English → Korean localization.
+    Given an English cultural reference (term + type), find the best Korean
+    cultural EQUIVALENT (not a literal translation).
+
+    Order of search:
+    1. Call dict_lookup(term). If it returns a non-null entry, use its `ko` and stop.
+       Respond with source="dict" and retrieved=false.
+    2. Otherwise call retriever_search(term, top_k=3, threshold=0.65). If the top hit
+       scores >= 0.65, use its `ko`. Respond with source="retriever" and retrieved=false.
+    3. Otherwise call web_search(query=term). Read the snippets and propose the best
+       Korean equivalent. Respond with source="web+llm" and retrieved=true.
+
+    Your final output MUST be a single JSON object:
+    {"term": "...", "ko": "...", "type": "...", "source": "dict|retriever|web+llm",
+     "retrieved": false, "notes": "<short justification>"}

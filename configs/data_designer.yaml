@@ -1,0 +1,20 @@
+model_configs:
+  - alias: nemotron_nano
+    provider: nvidia
+    model: nvidia/nemotron-3-nano-30b-a3b
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key_env: NVIDIA_API_KEY
+
+columns:
+  - name: source_text
+    type: seed
+
+  - name: decomposed
+    type: llm_structured
+    model_alias: nemotron_nano
+    output_format: src.schemas.Decomposed
+    temperature: 0.2
+    system_prompt_ref: src.part1_decompose.prompts.SYSTEM_PROMPT
+    prompt: |
+      Annotate this post:
+      """{{ source_text }}"""

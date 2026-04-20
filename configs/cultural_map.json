@@ -1,0 +1,295 @@
+{
+  "holidays": [
+    {
+      "en": "thanksgiving",
+      "ko": "추석",
+      "notes": "family harvest holiday, extended family gathering"
+    },
+    {
+      "en": "christmas",
+      "ko": "크리스마스",
+      "notes": "romantic/couples event in Korea, not family-centric"
+    },
+    {
+      "en": "halloween",
+      "ko": "핼러윈",
+      "notes": "young-adult costume parties in urban areas"
+    },
+    {
+      "en": "fourth of july",
+      "ko": "광복절",
+      "approximate": true,
+      "notes": "national holiday analogue"
+    },
+    {
+      "en": "new year's eve",
+      "ko": "새해맞이",
+      "notes": "해돋이 문화 포함"
+    }
+  ],
+  "brands": [
+    {
+      "en": "venmo",
+      "ko": "토스",
+      "type": "service",
+      "notes": "peer-to-peer payment"
+    },
+    {
+      "en": "zelle",
+      "ko": "카카오페이",
+      "type": "service"
+    },
+    {
+      "en": "doordash",
+      "ko": "배달의민족",
+      "type": "service"
+    },
+    {
+      "en": "uber",
+      "ko": "카카오택시",
+      "type": "service"
+    },
+    {
+      "en": "lyft",
+      "ko": "타다",
+      "type": "service"
+    },
+    {
+      "en": "amazon",
+      "ko": "쿠팡",
+      "type": "brand"
+    },
+    {
+      "en": "google",
+      "ko": "네이버",
+      "type": "brand"
+    },
+    {
+      "en": "whatsapp",
+      "ko": "카카오톡",
+      "type": "service"
+    },
+    {
+      "en": "imessage",
+      "ko": "카카오톡",
+      "type": "service"
+    },
+    {
+      "en": "starbucks",
+      "ko": "스타벅스",
+      "type": "brand",
+      "keep": true
+    },
+    {
+      "en": "trader joe's",
+      "ko": "이마트",
+      "type": "brand",
+      "approximate": true
+    }
+  ],
+  "events": [
+    {
+      "en": "prom",
+      "ko": "졸업식 뒤풀이",
+      "approximate": true,
+      "notes": "no direct equivalent"
+    },
+    {
+      "en": "homecoming",
+      "ko": "학교 축제",
+      "approximate": true
+    },
+    {
+      "en": "spring break",
+      "ko": "개강 전 여행",
+      "approximate": true
+    },
+    {
+      "en": "sat",
+      "ko": "수능",
+      "notes": "college entrance exam"
+    },
+    {
+      "en": "frat party",
+      "ko": "동아리 뒤풀이",
+      "approximate": true
+    }
+  ],
+  "food": [
+    {
+      "en": "pumpkin spice latte",
+      "ko": "고구마 라떼",
+      "approximate": true,
+      "notes": "seasonal fall drink trope"
+    },
+    {
+      "en": "thanksgiving turkey",
+      "ko": "송편",
+      "approximate": true,
+      "notes": "holiday staple food"
+    },
+    {
+      "en": "root beer",
+      "ko": "식혜",
+      "approximate": true
+    },
+    {
+      "en": "peanut butter sandwich",
+      "ko": "김밥",
+      "approximate": true,
+      "notes": "casual everyday lunch"
+    }
+  ],
+  "pop_culture": [
+    {
+      "en": "snl",
+      "ko": "개그콘서트",
+      "approximate": true,
+      "notes": "sketch comedy institution"
+    },
+    {
+      "en": "superbowl",
+      "ko": "월드컵 결승",
+      "approximate": true,
+      "notes": "nation-stopping sports event"
+    },
+    {
+      "en": "taylor swift",
+      "ko": "아이유",
+      "approximate": true,
+      "notes": "era-defining solo artist"
+    },
+    {
+      "en": "tiktok dance",
+      "ko": "챌린지"
+    }
+  ],
+  "retrieved": [
+    {
+      "en": "pumpkin spice",
+      "ko": "호박죽",
+      "type": "food",
+      "notes": "가을 디저트인 호박죽이 펌프킨 스파이스의 한국식 대체품입니다.",
+      "source": "retrieved"
+    },
+    {
+      "en": "turkey",
+      "ko": "오리",
+      "type": "food",
+      "notes": "오리는 한국의 명절 요리로 터키와 비슷한 역할을 해요.",
+      "source": "retrieved"
+    },
+    {
+      "en": "skibidi",
+      "ko": "스키디",
+      "type": "slang",
+      "notes": "화장실 개그 트렌드",
+      "source": "retrieved"
+    },
+    {
+      "en": "cold open",
+      "ko": "프리미어",
+      "type": "event",
+      "notes": "새로운 프로그램의 첫 공개 행사",
+      "source": "retrieved"
+    },
+    {
+      "en": "stranger things",
+      "ko": "기묘한 이야기",
+      "type": "pop_culture",
+      "notes": "‘Strange Story’, the Korean title of the series.",
+      "source": "retrieved"
+    },
+    {
+      "en": "caramel macchiato",
+      "ko": "카라멜 마키아토",
+      "type": "food",
+      "notes": "에스프레소 위에 스팀밀크와 카라멜 소스를 얹은 음료",
+      "source": "retrieved"
+    },
+    {
+      "en": "venti",
+      "ko": "바람의 시인",
+      "type": "other",
+      "notes": "바람을 다루는 시적인 캐릭터",
+      "source": "retrieved"
+    },
+    {
+      "en": "netflix",
+      "ko": "넷플릭스",
+      "type": "service",
+      "notes": "한국에서 스트리밍 서비스를 통틀어 통용되는 이름",
+      "source": "retrieved"
+    },
+    {
+      "en": "chipotle",
+      "ko": "Höm",
+      "type": "brand",
+      "notes": "Höm is the Korean brand comparable to Chipotle",
+      "source": "retrieved"
+    },
+    {
+      "en": "burrito",
+      "ko": "김밥",
+      "type": "food",
+      "notes": "김밥은 밥과 반찬을 말아 만든 한국식 랩입니다.",
+      "source": "retrieved"
+    },
+    {
+      "en": "4th of july",
+      "ko": "광복절",
+      "type": "holiday",
+      "notes": "대한민국이 일본의 식민지_rule을 해방한 날을 기념하는 광복절",
+      "source": "retrieved"
+    },
+    {
+      "en": "burgers",
+      "ko": "버거",
+      "type": "food",
+      "notes": "버거는 빵 사이에 고기 패티가 들어간 음식입니다.",
+      "source": "retrieved"
+    },
+    {
+      "en": "fam",
+      "ko": "형",
+      "type": "slang",
+      "notes": "Used like 'bro' for close male friends, similar to 'fam' in English.",
+      "source": "retrieved"
+    },
+    {
+      "en": "iphone",
+      "ko": "갤럭시",
+      "type": "brand",
+      "notes": "Samsung의 플래그십 스마트폰 브랜드로, 아이폰과 같은 위상을 갖는다.",
+      "source": "retrieved"
+    },
+    {
+      "en": "taylor",
+      "ko": "IU",
+      "type": "pop_culture",
+      "notes": "IU is often called the Taylor Swift of Korea.",
+      "source": "retrieved"
+    },
+    {
+      "en": "tour dates",
+      "ko": "공연 일정",
+      "type": "event",
+      "notes": "공연 일정은 공연이나 투어의 날짜와 시간을 의미합니다.",
+      "source": "retrieved"
+    },
+    {
+      "en": "dorm move-in",
+      "ko": "기숙사 입주",
+      "type": "event",
+      "notes": "대학생이 기숙사에 입주하는 행사",
+      "source": "retrieved"
+    },
+    {
+      "en": "roomie",
+      "ko": "룸메",
+      "type": "slang",
+      "notes": "친구와 같이 사는 사람을 비하하거나 친근하게 부르는 말",
+      "source": "retrieved"
+    }
+  ]
+}

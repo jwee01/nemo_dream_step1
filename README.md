@@ -1,7 +1,5 @@
 # Data Pipeline Phase 1 — Sociolinguistic Decomposition + Cultural Substitution
 
-Also available in: **[한국어 (Korean)](README.ko.md)**
-
 NVIDIA Nemotron Hackathon **Track C: Nemotron for SDG**. Stages 1–2 of a pipeline that converts English SNS datasets into Korean datasets for k‑sovereign LLM training. **Not translation** — rewriting with cultural adaptation.
 
 **Owned here:** Stage 1 (sociolinguistic JSON extraction) + Stage 2 (cultural reference substitution).
